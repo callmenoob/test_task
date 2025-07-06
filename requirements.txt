@@ -1,0 +1,7 @@
+AltTester-Driver
+pytest
+pytest-html
+assertpy
+virtualenv
+allure-pytest
+allure-combine
