@@ -2,7 +2,6 @@ from enum import Enum
 
 from alttester import AltDriver
 
-
 from components.static_components.base import StaticBaseComponent
 from constants import CS_ASSEMBLY
 
@@ -10,7 +9,8 @@ from constants import CS_ASSEMBLY
 class PlayerDataProp(Enum):
     INSTANCE = 'instance'
     TUTORIAL_DONE = 'tutorialDone'
-    COINS= 'coins'
+    COINS = 'coins'
+
 
 class PlayerDataMethods(Enum):
     CREATE_PLAYER = 'Create'
@@ -20,6 +20,6 @@ class PlayerDataMethods(Enum):
 class PlayerData(StaticBaseComponent):
     component_name = 'PlayerData'
     component_assembly = CS_ASSEMBLY
+
     def __init__(self, altdriver: AltDriver):
         super().__init__(altdriver)
-

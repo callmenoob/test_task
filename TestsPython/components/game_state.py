@@ -3,6 +3,7 @@ from enum import Enum
 from components.base import BaseComponent
 from constants import CS_ASSEMBLY
 
+
 class GameStateMethods(Enum):
     FINISH_TUTORIAL = 'FinishTutorial'
 

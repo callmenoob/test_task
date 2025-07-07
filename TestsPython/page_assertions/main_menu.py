@@ -7,5 +7,6 @@ def is_displayed(page):
             and page.character_name
             and page.theme_name)
 
+
 def check_tutorial_overlay(page, should_be_present=True):
     assert page.tutorial_overlay.enabled == should_be_present
